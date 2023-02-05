@@ -26,16 +26,46 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio-Frontend_Developer-Yuliia-Sobolieva</title>
   </head>
   <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Yuliia Sobolieva</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutme.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <p>Hi! I am</p>
       <h1>Yuliia Sobolieva</h1>
@@ -51,7 +81,11 @@
     <div class="container">
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="Img/coffee.PNG" alt="Coffee_App" />
+          <img
+            class="project-img-homepage"
+            src="Img/coffee.PNG"
+            alt="Coffee_App"
+          />
         </div>
         <div class="col project-description">
           <h2>Coffee Project</h2>
@@ -117,7 +151,7 @@
       </div>
     </div>
 
-    <div class="contacts">
+    <div class="contacts" id="contact">
       <div class="d-lg-none"><h2>Contact me</h2></div>
       <a class="link" href="mailto:yusobolieva@gmail.com"
         >yusobolieva@gmail.com</a
