@@ -20,12 +20,21 @@ h3 {
   font-weight: bold;
 }
 
-.navbar-title {
+.navbar {
+  float: right;
+}
+
+.navbar-home-color {
   background-color: #f9f7fe;
 }
 
 .navbar-color {
   background-color: #ffffff;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #6c63ff;
 }
 
 .content-container {
@@ -179,6 +188,9 @@ h3 {
   h1 {
     font-size: 60px;
   }
+  .content-container h1 {
+    font-size: 54px;
+  }
   h2 {
     font-size: 44px;
   }
@@ -187,14 +199,18 @@ h3 {
     margin-top: 20px;
   }
   .hero {
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 30px;
+  }
+  .content-container {
+    margin-top: 80px;
+    margin-bottom: 12px;
   }
   .project-description {
     text-align: center;
   }
   .projects {
-    margin-top: 12px;
+    margin-top: 80px;
     margin-bottom: 12px;
   }
   .icon {
