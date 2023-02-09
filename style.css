@@ -25,18 +25,19 @@ h3 {
 }
 
 .navbar-color {
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-.about-content {
+.content-container {
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 
-.about-content h1 {
+.content-container h1 {
   font-size: 64px;
 }
 
-.about-content h3 {
+.content-container h3 {
   font-size: 18px;
   margin-top: 30px;
   margin-bottom: 30px;
