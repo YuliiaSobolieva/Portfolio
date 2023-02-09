@@ -158,6 +158,10 @@ h3 {
   color: #000000;
 }
 
+.footer {
+  margin-bottom: 30px;
+}
+
 .contact-container {
   background-color: #f9f7fe;
   border-radius: 20px;
